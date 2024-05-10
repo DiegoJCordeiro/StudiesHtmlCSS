@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction - CSS 3</title>
+
+    <!-- External - Cascade Style Sheet-->
+    <!-- It's recommended. Weight 3rd -->
+    <link rel="stylesheet" type="text/css" href="../../styles/chapter_2/introduction.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Internal - Cascade Style Sheet-->
+    <!-- It's not recommended. Weight 2nd -->
+    <style>
+        h1 {
+            color: blue
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline - Cascade Style Sheet -->
+    <!-- It's not recommended. Weight 1st -->
+    <h1 style="color: green">Introduction to CSS.</h1>
+    <p id="text-color-id" class="text-color-class">Text test</p>
+    <p class="text-color-class">Text test</p>
+    <p class="text-color-class">Text test</p>
+</body>
+</html>

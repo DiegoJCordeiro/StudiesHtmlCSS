@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.title {
+    font-size: 100px;
+    font-family: "Roboto", sans-serif;
+}
+
+.paragraph {
+    font-size: 70px;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+    font-style: oblique;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+
+.bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.bolder {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+
+.variant {
+    font-family: "Roboto", sans-serif;
+    font-variant: small-caps;
+}

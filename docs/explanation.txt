@@ -1,0 +1,26 @@
+Ferramentas para utilizar
+    VSCode
+    Browser
+HTML (Hypertext Markup Language)
+    Utilizado para criação de estruturas de páginas WEB.
+    Não é uma linguagem de programação, e sim uma linguagem de marcação.
+    Orgão padronizador é W3C.
+    [Tags]
+        São marcações em HTML, sempre declaradas entre <>.
+        Cada Tag possuí um significado.
+        Por exemplo
+            <p>  - Significa paragrafo
+                Utilizado para declaração de paragrafos.
+            <h1> - Significa Cabeçalho
+                Utilizado para declaração de titulos.
+                Possui classificações do 1 ao 6.
+            <a> - Significa âncora
+                Utilizado para ancorar links para outras paginas web.
+                href - Significa Hypertext Reference
+                    É um atributo da tag <a>.
+                    Utilizado para referenciar outra página Web.
+    [Comentários]
+        São utilizados para explicar algo no código.
+        Não são exibidos na tela.
+        Por exemplo
+            <!-- Isto é um comentário -->

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms - HTML 5</title>
+    </head>
+
+    <body>
+        <h1>
+            Forms - HTML 5
+        </h1>
+        <form action="https://www.google.com/search" method="GET">
+
+            <h2>Text</h2>
+            <label for="searchField">
+                What would you like know ?
+            </label>
+            <br/>
+            <input id="searchField" type="text" name="q" placeholder="What the dogs eat ?" maxlength="15" required />
+            <br/>
+
+            <h2>Checkbox</h2>
+            <label for="yearsOlderYesField">
+                Do you older, right ?
+            </label>
+            <input id="yearsOlderYesField" name="yearsOlderYesField" type="checkbox" value="Yes" disabled/>
+            <br/>
+
+            <h2>Radio</h2>
+            <input id="radioGenreMale" type="radio" name="genre" value="male" />
+            <label for="radioGenreMale">
+                Male
+            </label>
+            <br/>
+            <input id="radioGenreFemale" type="radio" name="genre" value="female"/>
+            <label for="radioGenreFemale">
+                Female
+            </label>
+            <br/>
+            <input id="radioGenreOther" type="radio" name="genre" value="other"/>
+            <label for="radioGenreOther">
+                Other
+            </label>
+            <br/>
+
+            <h2>Textarea</h2>
+            <label for="descriptionField">
+                What's your description ?
+            </label>
+            <textarea id="descriptionField" rows="10" cols="40" placeholder="Type about you, for example: I am software developer." readonly></textarea>
+
+            <!--
+                Note:
+                - Input Tag: Parameter readonly is sent to Backend.
+                - Input Tag: Parameter disabled is not sent.
+            -->
+            <h2>Submit</h2>
+            <input type="submit" value="Search">
+        </form>
+    </body>
+</html>

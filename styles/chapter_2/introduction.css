@@ -1,0 +1,32 @@
+/*
+    - Commentary are added putting one / and *
+
+    - The CSS style is created thus:
+    <selector> {
+        key: value
+    }
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    color: yellow;
+}
+
+/*
+    - Between class and id, the weight desc is:
+        - 1st: #id
+        - 2nd: .class
+*/
+.text-color-class {
+    color: chocolate;
+}
+
+#text-color-id {
+    color: deeppink;
+}

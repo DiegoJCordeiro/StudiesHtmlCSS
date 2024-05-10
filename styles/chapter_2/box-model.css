@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.title {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.box-title {
+    width: 100%;
+    font-size: 100%;
+    border: 0 #000 solid;
+}
+
+.field-padding {
+
+    /* General Padding - top, right, bottom and left.*/
+    padding: 10px;
+
+    /* Group Padding - top and bottom / right and left. */
+    /* padding: 20px 20px; */
+
+    /* Group Padding - top, right, bottom and left.*/
+    /* padding: 20px 20px 20px 20px; */
+
+    /* Specific Padding */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+}
+
+.field-border {
+
+    /* Border Color - Hexadecimal, rgba or color name.*/
+    border-color: #000000;
+
+    /* Border Style - Solid, dashed or others.*/
+    border-style: solid;
+
+    /* Border Width - Top, right, bottom and left.*/
+    border-width: 10px 10px 10px 10px;
+
+    /* Border Radius - Top, right, bottom and left.*/
+    border-radius: 10px 10px 10px 10px;
+
+    padding: 10px;
+}
+
+.field-margin {
+
+    /* Margin - Top, right, bottom and left.*/
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    padding: 10px;
+}
